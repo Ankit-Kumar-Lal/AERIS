@@ -1,0 +1,25 @@
+{
+  "short_name": "AERIS",
+  "name": "AERIS — Epidemic Risk Intelligence",
+  "description": "AI-Powered Epidemic Risk Intelligence and Early Warning System for Water-Borne Diseases in Rural Northeast India",
+  "icons": [
+    {
+      "src": "/brand/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/brand/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/dashboard",
+  "background_color": "#102F15",
+  "theme_color": "#102F15",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "categories": ["health", "medical", "government"]
+}

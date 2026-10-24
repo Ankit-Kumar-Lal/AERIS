@@ -1,0 +1,46 @@
+{
+  "brand": {
+    "name": "AERIS",
+    "tagline": "AI-Powered Epidemic Risk Intelligence & Response System",
+    "philosophy": "A risk signal is a prompt to verify, not a confirmed outbreak."
+  },
+  "nav": {
+    "dashboard": "Overview Dashboard",
+    "map": "Interactive 3D Map",
+    "cases": "New Cases & Feed",
+    "report": "Report a Case",
+    "alerts": "Alerts Operations",
+    "water": "Water & Weather",
+    "analytics": "Public Health Analytics",
+    "resources": "Resources & Awareness",
+    "admin": "Admin & Sandbox",
+    "about": "About AERIS"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Create Account",
+    "logout": "Sign Out",
+    "civilian": "Civilian Citizen",
+    "official": "ASHA / NGO / Health Official",
+    "pending_badge": "Pending Verification",
+    "verified_badge": "Verified Identity",
+    "demo_credentials": "Click to use a pre-configured account"
+  },
+  "risk": {
+    "high": "High Risk",
+    "medium": "Medium Risk",
+    "low": "Low Risk",
+    "confidence": "AI Confidence",
+    "outbreak_prob": "Outbreak Probability"
+  },
+  "actions": {
+    "verify": "Verify Case",
+    "reject": "Mark False Alarm",
+    "escalate": "Notify District Officials",
+    "resolve": "Mark Resolved",
+    "submit": "Submit Report",
+    "export_pdf": "Export Risk Brief (PDF)",
+    "export_csv": "Export Data (CSV)",
+    "simulate": "Simulate Outbreak Surge"
+  }
+}

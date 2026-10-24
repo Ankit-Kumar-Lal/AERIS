@@ -1,0 +1,353 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Assam",
+        "state_code": "AS",
+        "capital": "Dispur",
+        "villages_monitored": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              89.7,
+              26.0
+            ],
+            [
+              90.5,
+              26.8
+            ],
+            [
+              92.0,
+              26.9
+            ],
+            [
+              93.5,
+              27.2
+            ],
+            [
+              95.5,
+              27.8
+            ],
+            [
+              96.0,
+              27.5
+            ],
+            [
+              95.0,
+              26.8
+            ],
+            [
+              93.5,
+              26.0
+            ],
+            [
+              92.5,
+              25.8
+            ],
+            [
+              91.0,
+              25.9
+            ],
+            [
+              89.7,
+              26.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meghalaya",
+        "state_code": "ML",
+        "capital": "Shillong",
+        "villages_monitored": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.0,
+              25.2
+            ],
+            [
+              90.0,
+              25.9
+            ],
+            [
+              91.8,
+              26.0
+            ],
+            [
+              92.8,
+              25.6
+            ],
+            [
+              92.5,
+              25.1
+            ],
+            [
+              91.2,
+              25.1
+            ],
+            [
+              90.0,
+              25.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tripura",
+        "state_code": "TR",
+        "capital": "Agartala",
+        "villages_monitored": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.2,
+              23.0
+            ],
+            [
+              91.2,
+              24.5
+            ],
+            [
+              92.3,
+              24.5
+            ],
+            [
+              92.3,
+              23.8
+            ],
+            [
+              91.8,
+              23.0
+            ],
+            [
+              91.2,
+              23.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manipur",
+        "state_code": "MN",
+        "capital": "Imphal",
+        "villages_monitored": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              93.0,
+              24.0
+            ],
+            [
+              93.0,
+              25.7
+            ],
+            [
+              94.5,
+              25.7
+            ],
+            [
+              94.7,
+              24.5
+            ],
+            [
+              93.8,
+              23.8
+            ],
+            [
+              93.0,
+              24.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arunachal Pradesh",
+        "state_code": "AR",
+        "capital": "Itanagar",
+        "villages_monitored": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.5,
+              27.3
+            ],
+            [
+              92.0,
+              28.0
+            ],
+            [
+              94.0,
+              29.0
+            ],
+            [
+              96.5,
+              29.5
+            ],
+            [
+              97.4,
+              28.2
+            ],
+            [
+              96.0,
+              27.5
+            ],
+            [
+              93.5,
+              27.0
+            ],
+            [
+              91.5,
+              27.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nagaland",
+        "state_code": "NL",
+        "capital": "Kohima",
+        "villages_monitored": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              93.3,
+              25.6
+            ],
+            [
+              93.5,
+              26.8
+            ],
+            [
+              94.8,
+              27.0
+            ],
+            [
+              95.3,
+              26.6
+            ],
+            [
+              94.5,
+              25.5
+            ],
+            [
+              93.3,
+              25.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mizoram",
+        "state_code": "MZ",
+        "capital": "Aizawl",
+        "villages_monitored": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              92.2,
+              21.9
+            ],
+            [
+              92.2,
+              24.5
+            ],
+            [
+              93.4,
+              24.2
+            ],
+            [
+              93.4,
+              22.2
+            ],
+            [
+              92.8,
+              21.9
+            ],
+            [
+              92.2,
+              21.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sikkim",
+        "state_code": "SK",
+        "capital": "Gangtok",
+        "villages_monitored": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.0,
+              27.1
+            ],
+            [
+              88.0,
+              28.1
+            ],
+            [
+              88.9,
+              28.1
+            ],
+            [
+              88.9,
+              27.1
+            ],
+            [
+              88.0,
+              27.1
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

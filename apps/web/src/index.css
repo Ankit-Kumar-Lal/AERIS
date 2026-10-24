@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --forest: #102F15;
+    --emerald: #339966;
+    --mint: #66CC99;
+    --soft-mint: #D3FEEA;
+    --pale-green: #EBFADC;
+    --pale-lime: #EAF1B1;
+    --white: #FFFFFF;
+
+    --bg-page: #EBFADC;
+    --bg-surface: #FFFFFF;
+    --bg-surface-elevated: #F6FBF1;
+    --text-primary: #102F15;
+    --text-secondary: #2C5734;
+    --text-muted: #567C5D;
+    --border-color: #D3FEEA;
+    --card-shadow: 0 4px 12px rgba(16, 47, 21, 0.06);
+  }
+
+  .dark {
+    --forest: #102F15;
+    --emerald: #339966;
+    --mint: #66CC99;
+    --soft-mint: #1B4722;
+    --pale-green: #071309;
+    --pale-lime: #244C27;
+    --white: #112815;
+
+    --bg-page: #071309;
+    --bg-surface: #0E2312;
+    --bg-surface-elevated: #15321B;
+    --text-primary: #EBFADC;
+    --text-secondary: #BEEBC5;
+    --text-muted: #7FA786;
+    --border-color: #1B4722;
+    --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  }
+
+  .high-contrast {
+    --forest: #000000;
+    --emerald: #00703C;
+    --mint: #008542;
+    --soft-mint: #FFFFFF;
+    --pale-green: #FFFFFF;
+    --pale-lime: #FFFFFF;
+    --white: #FFFFFF;
+
+    --bg-page: #FFFFFF;
+    --bg-surface: #FFFFFF;
+    --bg-surface-elevated: #FFFFFF;
+    --text-primary: #000000;
+    --text-secondary: #000000;
+    --text-muted: #1A1A1A;
+    --border-color: #000000;
+    --card-shadow: none;
+  }
+
+  body {
+    background-color: var(--bg-page);
+    color: var(--text-primary);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Accessible focus indicators */
+  :focus-visible {
+    outline: 2px solid var(--emerald);
+    outline-offset: 2px;
+  }
+}
+
+/* High Contrast Mode Overrides */
+.high-contrast * {
+  border-width: 1px !important;
+}
+
+.high-contrast button, 
+.high-contrast a,
+.high-contrast input,
+.high-contrast select {
+  outline: 2px solid #000000 !important;
+}
+
+/* Custom scrollbars matching Sentinel aesthetic */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(16, 47, 21, 0.05);
+}
+::-webkit-scrollbar-thumb {
+  background: #339966;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #102F15;
+}
+
+/* MapLibre popup and marker styling */
+.maplibregl-popup-content {
+  background: #FFFFFF !important;
+  color: #102F15 !important;
+  border-radius: 1rem !important;
+  padding: 1rem !important;
+  box-shadow: 0 10px 25px -5px rgba(16, 47, 21, 0.2) !important;
+  border: 1px solid #D3FEEA !important;
+  font-family: inherit !important;
+}
+
+.dark .maplibregl-popup-content {
+  background: #0E2312 !important;
+  color: #EBFADC !important;
+  border-color: #1B4722 !important;
+}
+
+.maplibregl-popup-close-button {
+  color: #102F15 !important;
+  padding: 4px 8px !important;
+}
+
+.dark .maplibregl-popup-close-button {
+  color: #EBFADC !important;
+}
