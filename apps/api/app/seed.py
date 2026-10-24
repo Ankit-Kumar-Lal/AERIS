@@ -101,9 +101,15 @@ SEVERITIES = ["mild", "moderate", "severe"]
 
 
 def seed_database():
-    print("[AERIS Seeder] Resetting database tables...")
-    Base.metadata.drop_all(bind=engine)
+    print("[AERIS Seeder] Checking database before seeding...")
     Base.metadata.create_all(bind=engine)
+
+    check_db: Session = SessionLocal()
+    if check_db.query(Location).first():
+        print("[AERIS Seeder] Existing demo data found; skipping seed.")
+        check_db.close()
+        return
+    check_db.close()
 
     db: Session = SessionLocal()
     now = datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None)
